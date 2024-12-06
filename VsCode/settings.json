@@ -1,0 +1,26 @@
+{
+    "code-runner.runInTerminal": true,
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+     "workbench.statusBar.visible": false,
+    "editor.lineHeight": 1.4,
+    "editor.fontSize": 30 ,
+    "workbench.editor.closeEmptyGroups": false,
+    "files.exclude": {
+        "**/cplus": true,
+        "**/*.exe": true,
+    },
+    "search.exclude": {
+        "**/cplus": true,
+        "**/*.exe": true,
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Shades of Purple"
+    
+}

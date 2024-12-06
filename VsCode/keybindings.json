@@ -1,0 +1,17 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "f9",
+        "command": "C_Cpp.BuildAndRunFile"
+    }
+    ,{
+        "key": "alt+l",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "alt+j",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+      }
+]
