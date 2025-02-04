@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-01-31T14:16:25.071-00:00",
+	"CreationDate" : "2025-02-05T05:14:45.890-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,13 +16,13 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "SourceFoundry.HackFonts"
-				},
-				{
 					"PackageIdentifier" : "Notepad++.Notepad++"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Office"
+				},
+				{
+					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome"
