@@ -1,7 +1,11 @@
 {
   "cpp": {
-  "prefix": "pre",
+  "prefix": "Prac",
   "body": [
+    "/**",
+    " *   author: long9657",
+    " *  created: $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND",
+    "**/",
     "#include <bits/stdc++.h>",
     "using namespace std;",
     "#define ll long long",
@@ -20,12 +24,6 @@
     "const int MOD = 1e9 + 7;",
     "const ll INF = 2e18 + 7;",
     "",
-    "void init() {",
-    "",
-    "",
-    "}",
-    "",
-    "",
     "void solve() {",
     "",
     "}",
@@ -34,18 +32,13 @@
     "    ios_base::sync_with_stdio(false);",
     "    cin.tie(0);",
     "    cout.tie(0);",
-    "    init();",
-    "    int test = 1;",
-    "    // cin >> test;",
-    "    fu(i, 1, test) {",
+    "    int t = 1;",
+    "    //cin >> t;",
+    "    for(int i = 1; i <= t; i++) {",
     "        solve();",
+    "        cout << '\\n';",
     "    }",
     "}",
-    "",
-    "",
-    "",
-    "",
-    ""
   ],
   "description": "cpp"
 }
