@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2025-02-05T05:14:45.890-00:00",
+	"CreationDate" : "2025-02-21T00:15:14.646-00:00",
 	"Sources" : 
 	[
 		{
@@ -16,16 +16,34 @@
 					"PackageIdentifier" : "Git.Git"
 				},
 				{
+					"PackageIdentifier" : "SourceFoundry.HackFonts"
+				},
+				{
+					"PackageIdentifier" : "ImageMagick.ImageMagick"
+				},
+				{
 					"PackageIdentifier" : "Notepad++.Notepad++"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Office"
 				},
 				{
+					"PackageIdentifier" : "Zen-Team.Zen-Browser"
+				},
+				{
+					"PackageIdentifier" : "glzr-io.zebar"
+				},
+				{
 					"PackageIdentifier" : "Cloudflare.Warp"
 				},
 				{
 					"PackageIdentifier" : "Google.Chrome"
+				},
+				{
+					"PackageIdentifier" : "glzr-io.glazewm"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS"
 				},
 				{
 					"PackageIdentifier" : "FxSound.FxSound"
@@ -37,7 +55,10 @@
 					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS"
+					"PackageIdentifier" : "wez.wezterm"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
 				},
 				{
 					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
@@ -46,22 +67,19 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "Neovim.Neovim"
-				},
-				{
 					"PackageIdentifier" : "AIMP.AIMP"
 				},
 				{
 					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full"
 				},
 				{
+					"PackageIdentifier" : "LLVM.LLVM"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
 					"PackageIdentifier" : "Valve.Steam"
-				},
-				{
-					"PackageIdentifier" : "DEVCOM.JetBrainsMonoNerdFont"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher"
@@ -76,7 +94,16 @@
 					"PackageIdentifier" : "BrechtSanders.WinLibs.POSIX.MSVCRT"
 				},
 				{
+					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+				},
+				{
 					"PackageIdentifier" : "Discord.Discord"
+				},
+				{
+					"PackageIdentifier" : "Flow-Launcher.Flow-Launcher"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive"
@@ -85,16 +112,31 @@
 					"PackageIdentifier" : "SumatraPDF.SumatraPDF"
 				},
 				{
+					"PackageIdentifier" : "Zoom.Zoom.EXE"
+				},
+				{
+					"PackageIdentifier" : "ajeetdsouza.zoxide"
+				},
+				{
 					"PackageIdentifier" : "VNGCorp.Zalo"
+				},
+				{
+					"PackageIdentifier" : "jqlang.jq"
+				},
+				{
+					"PackageIdentifier" : "junegunn.fzf"
+				},
+				{
+					"PackageIdentifier" : "sharkdp.fd"
+				},
+				{
+					"PackageIdentifier" : "sxyazi.yazi"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.13"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.AppInstaller"
@@ -110,9 +152,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WSL"
-				},
-				{
-					"PackageIdentifier" : "TheBrowserCompany.Arc"
 				}
 			],
 			"SourceDetails" : 
