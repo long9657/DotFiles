@@ -58,18 +58,21 @@
     {
         "defaults": 
         {
-            "colorScheme": 
-            {
-                "light": "Campbell"
-            },
+            "colorScheme": "Dracula",
             "font": 
             {
                 "face": "Hack Nerd Font"
-            }
+            },
+            "padding": "0",
+            "scrollbarState": "hidden"
         },
         "list": 
         [
             {
+                "font": 
+                {
+                    "face": "Ha"
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
@@ -92,12 +95,14 @@
                 "backgroundImage": "D:\\Dotfiles\\Image\\t3h6d8tt.png",
                 "backgroundImageOpacity": 0.1,
                 "backgroundImageStretchMode": "uniform",
-                "colorScheme": 
+                "colorScheme": "Dracula",
+                "font": 
                 {
-                    "light": "Dracula"
+                    "size": 16
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
+                "intenseTextStyle": "none",
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
             },
