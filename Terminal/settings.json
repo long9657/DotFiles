@@ -39,6 +39,11 @@
             "command": "find",
             "id": "User.find",
             "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "toggleFocusMode",
+            "id": "User.toggleFocusMode",
+            "keys": "ctrl+alt+shift+p"
         }
     ],
     "alwaysOnTop": false,
@@ -61,8 +66,11 @@
             "colorScheme": "Dracula",
             "font": 
             {
-                "face": "Hack Nerd Font"
+                "face": "Hack Nerd Font",
+                "size": 16
             },
+            "intenseTextStyle": "bright",
+            "opacity": 90,
             "padding": "0",
             "scrollbarState": "hidden"
         },
@@ -92,17 +100,11 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "backgroundImage": "D:\\Dotfiles\\Image\\t3h6d8tt.png",
                 "backgroundImageOpacity": 0.1,
                 "backgroundImageStretchMode": "uniform",
                 "colorScheme": "Dracula",
-                "font": 
-                {
-                    "size": 16
-                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "intenseTextStyle": "none",
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
             },
@@ -164,7 +166,7 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "startOnUserLogin": true,
+    "startOnUserLogin": false,
     "themes": [],
     "useAcrylicInTabRow": true
 }
