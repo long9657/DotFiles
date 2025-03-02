@@ -1,3 +1,3 @@
 # Clangd setup file
-> [!TIP]
+> [!NOTE]
 > Run command `".\Setting_Migrate.ps1`  to get the config
