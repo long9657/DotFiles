@@ -80,12 +80,14 @@ window_rules:
     match:
       # Ignores any Zebar windows.
       - window_process: {equals: "zebar"}
+     
       - window_title: {regex: "[Pp]icture.in.[Pp]icture"}
         # Ignores picture-in-picture windows for browsers.
 
         window_class: {regex: "Chrome_WidgetWin_1|MozillaDialogClass"}
       - window_process: {equals: "PowerToys.PowerAccent"}
         # Ignore rules for various 3rd-party apps.
+      - window_process: {equals: "League of Legends"}
       - window_process: {equals: "Lively"}
         window_class: {regex: "HwndWrapper*"}
 binding_modes:
@@ -191,7 +193,7 @@ keybindings:
     # Redraw all windows.
 
     bindings: ["alt+shift+w"]
-  - commands: ["shell-exec %ProgramFiles%/WezTerm/weterm-gui.exe"]
+  - commands: ["shell-exec wezterm-gui"]
     # Launch CMD terminal. Alternatively, use `shell-exec wt` or
 
     # Terminal and Git Bash respectively.

@@ -1,2 +1,2 @@
 # Clangd setup file
-- This config file will be copied to %localappdata%
+- Run command <span style = "color:red;"> git clone https://github.com/long9657/DotFiles/tree/main/clangd "${env:LOCALAPPDATA}\clangd" <span> to get the config
