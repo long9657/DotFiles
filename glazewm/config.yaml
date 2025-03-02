@@ -21,14 +21,14 @@ general:
     trigger: "window_focus"
 gaps:
   # Gap between adjacent windows.
-  inner_gap: "10px"
+  inner_gap: "2"
   # Gap between windows and the screen edge.
 
   outer_gap:
-    top: "50px"
-    right: "10px"
-    bottom: "10px"
-    left: "10px"
+    top: "2"
+    right: "2"
+    bottom: "2"
+    left: "2"
 window_effects:
   # Visual effects to apply to the focused window.
   focused_window:
@@ -76,8 +76,8 @@ workspaces:
   - name: "8"
   - name: "9"
 window_rules:
-  - commands: ["ignore"]
-    match:
+   - commands: ["ignore"]
+     match:
       # Ignores any Zebar windows.
       - window_process: {equals: "zebar"}
      
@@ -193,7 +193,7 @@ keybindings:
     # Redraw all windows.
 
     bindings: ["alt+shift+w"]
-  - commands: ["shell-exec wezterm-gui"]
+  - commands: ["shell-exec alacritty"]
     # Launch CMD terminal. Alternatively, use `shell-exec wt` or
 
     # Terminal and Git Bash respectively.
